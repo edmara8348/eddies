@@ -1,0 +1,505 @@
+@font-face {
+    font-family: myfont;
+    src: url(myfont.ttf);
+}
+@keyframes appear {
+ from {
+  opacity: 0;
+  scale: 0.5;
+ }
+
+ to {
+  opacity: 1;
+  scale: 1;
+ }
+}
+body{
+    font-family: 'Arvo';
+    background-color: #f2e7dc;
+    font-weight: lighter;
+}
+.menu-icon{
+ display:none;
+}
+.menu-icon i{
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+}
+.navbar{
+    text-align: center;
+}
+.navbar h1{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: center;
+}
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #eccfd6;
+}
+.navbar a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    background-color: #eccfd6;
+    color: #530408;
+}
+.navbar li{
+    float: left;
+    margin:0%;
+    padding: 0px;
+}
+.navbar a:hover{
+    background-color: #FAF0DC;
+}
+.navbar img{
+    padding: 4px;
+    margin: 4px;
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+}
+#mobile-logo{
+    display: none;
+}
+
+.text{
+    font-family: playwrite au sa;
+    font-weight: 400;
+    text-align: center;
+    font-size: 30px;
+    color: #530408;
+    margin: auto;
+    animation: appear linear;
+    max-width: 100%;
+    width: auto;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.allcakes h2{
+    font-family: playwrite au sa;
+    color: #bf9b30;
+    font-size: 18px;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.allcakes p{
+    color: #bf9b30;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.allcakes h3{
+    color: #bf9b30;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 5px;
+    width: 30%;
+    margin: auto;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+
+.cake1{
+    display: flex;
+    justify-content: center;
+    background-color: #ffd3d6;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.cake1 img{
+    border-radius: 15px;
+    margin: 15px;
+    animation: appear linear;
+    max-width: 100%;
+    height: auto;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.cake2{
+    display: flex;
+    justify-content: center;
+    background-color: #ffff90;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.cake2 img{
+    border-radius: 15px;
+    margin: 15px;
+    animation: appear linear;
+    max-width: 100%;
+    height: auto;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}.cake3{
+    display: flex;
+    justify-content: center;
+    background-color: #add2e4;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.cake3 img{
+    border-radius: 15px;
+    margin: 15px;
+    animation: appear linear;
+    max-width: 100%;
+    height: auto;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}.cake4{
+    display: flex;
+    justify-content: center;
+    background-color: #e6e6ea;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.cake4 img{
+    border-radius: 15px;
+    margin: 15px;
+    animation: appear linear;
+    max-width: 100%;
+    height: auto;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+
+}.cake5{
+    display: flex;
+    justify-content: center;
+    background-color: #d2b48c;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.cake5 img{
+    border-radius: 15px;
+    margin: 15px;
+    animation: appear linear;
+    max-width: 100%;
+    height: auto;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}.cake6{
+    display: flex;
+    justify-content: center;
+    background-color: #e7d3d3;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.cake6 img{
+    border-radius: 15px;
+    margin: 15px;
+    animation: appear linear;
+    max-width: 100%;
+    height: auto;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+
+.pink{
+    text-align: center;
+    background-color: #ffe5f1 ;
+    border-radius: 35px;
+    margin: 20px;
+    padding: 15px;
+    animation: appear linear;
+    max-width: 100%;
+    width: auto;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+
+.yellow{
+    text-align: center;
+    background-color: #fff9ae ;
+    border-radius: 35px;
+    margin: 20px;
+    padding: 15px;
+    animation: appear linear;
+    max-width: 100%;
+    width: auto;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.blue{
+    text-align: center;
+    background-color: #caf0f8 ;
+    border-radius: 35px;
+    margin: 20px;
+    padding: 15px;
+    animation: appear linear;
+    max-width: 100%;
+    width: auto;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.white{
+    text-align: center;
+    background-color: #f4f4f8 ;
+    border-radius: 35px;
+    margin: 20px;
+    padding: 15px;
+    animation: appear linear;    
+    max-width: 100%;
+    width: auto;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.brown{
+    text-align: center;
+    background-color: #e5d3b3 ;
+    border-radius: 35px;
+    margin: 20px;
+    padding: 15px;
+    animation: appear linear;
+    max-width: 100%;
+    width: auto;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.extra{
+    text-align: center;
+    background-color: #f0e4e4 ;
+    border-radius: 35px;
+    margin: 20px;
+    padding: 15px;
+    animation: appear linear;
+    max-width: 100%;
+    width: auto;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+
+
+.ulfooter{
+    background-color: #acada8;
+    justify-content: center;
+    margin: -13px;
+    padding: 0px;
+    display: flex;
+    font-size: 15px;
+    color: white;
+}
+.ulfooter li{
+    list-style-type: none;
+}
+
+.ulfooter a{
+    text-decoration: none;
+    color: white;
+
+}
+.ulfooter a:hover{
+color: #530408;
+}
+
+.ulfooter h2{
+    font-size: 15px;
+    text-decoration: underline;
+}
+.end1{
+    margin: 70px;
+    padding: 15px;
+    text-align: center;
+    max-width: 100%;
+    width: auto;
+}
+
+.end1 img{
+    border-radius: 10px;
+    margin: 5px;
+    max-width: 100%;
+    height: auto;
+
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #0c0b07;
+    font-size: 15px;
+    padding: 10px;
+    margin: -13px;
+    max-width: 100%;
+    width: auto;    
+
+}
+.foot1{
+    margin-right: 5px;
+    margin: 20px;
+}
+.foot2{
+    margin-left: 5px;
+    margin: 20px;
+}
+
+.logofoot{
+font-family: myfont;
+color: white;
+margin: 2px;
+}
+
+@media (max-width: 600px){
+.text{
+    margin-top: 20px;
+    font-size: 18px;
+    width: 550px;
+}
+.navbar li{
+    float: none;
+}
+.navbar ul{
+    flex-direction: column;
+    margin: auto;
+}
+.menu-icon{
+    margin-left: 150px;
+    margin-top: -90px;
+    padding: 20px;
+    display: block;
+}
+#menuList{
+    transition: all 0.5s;
+}
+#mobile-logo{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: #530408;
+    height: 70px;
+}
+#logo{
+    display: none;
+}
+
+.allcakes h2{
+    font-size: 20px;
+    animation: none;
+}
+.allcakes p{
+    font-size: 15px;
+     animation: none;  
+}
+.allcakes h3{
+    font-size: 18px;    
+    animation: none;
+    width: 80px;
+}
+.cake1{
+    display: block;
+    animation: none;
+    padding: 5px;
+}
+.cake1 img{
+    width: 200px;
+    animation: none;
+}
+.pink{
+    animation: none;
+}
+.cake2{
+    display: block;
+    animation: none;
+    padding: 5px;
+}
+.cake2 img{
+    width: 200px;
+    animation: none;
+}
+.yellow{
+    animation: none;
+}
+.cake3{
+    display: block;
+    animation: none;
+    padding: 5px;
+}
+.cake3 img{
+    width: 200px;
+    animation: none;
+}
+.blue{
+    animation: none;
+}
+.cake4{
+    display: block;
+    animation: none;
+    padding: 5px;
+}
+.cake4 img{
+    width: 200px;
+    animation: none;
+}
+.white{
+    animation: none;
+}
+.cake5{
+    display: block;
+    animation: none;
+    padding: 5px;
+}
+.cake5 img{
+    width: 200px;
+    animation: none;
+}
+.brown{
+    animation: none;
+}
+.cake6{
+    display: block;
+    animation: none;
+    padding: 5px;
+}
+.cake6 img{
+    width: 200px;
+    animation: none;
+}
+.extra{
+    animation: none;
+}
+.footer{
+    text-align: center;
+}
+.logofoot{
+    text-align: left;
+    margin: auto;
+}
+.ulfooter{
+    font-size: 15px;
+    display: block;
+    animation: none;
+}
+.ulfooter li{
+    animation: none;
+}
+.ulfooter h2{
+    animation: none;
+}
+.end1{
+    animation: none;
+}
+.end1 img{
+    animation: none;
+}
+.end1 a{
+    animation: none;
+}
+
+}
+

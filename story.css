@@ -1,0 +1,220 @@
+@font-face {
+    font-family: myfont;
+    src: url(myfont.ttf);
+}
+
+body{
+    font-family: 'Arvo';
+    background-color: #f2e7dc;
+    font-weight: lighter;
+}
+.menu-icon{
+ display:none;
+}
+.menu-icon i{
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+}
+.navbar{
+    text-align: center;
+}
+.navbar h1{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: center;
+}
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #eccfd6;
+}
+.navbar a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    background-color: #eccfd6;
+    color: #530408;
+}
+.navbar li{
+    float: left;
+    margin:0%;
+    padding: 0px;
+}
+.navbar a:hover{
+    background-color: #FAF0DC;
+}
+.navbar img{
+    padding: 4px;
+    margin: 4px;
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+}
+#mobile-logo{
+    display: none;
+}
+
+.story{
+    display: flex;
+    max-width: 100%;
+    width: auto;
+}
+.story-text{
+    margin-left: 120px;
+    margin: auto;
+    width: 650px;
+    max-width: 100%;
+}
+.story-text h2{
+    font-family: playwrite au sa;
+    margin: auto;
+    color: #bf9b30 ;
+    font-size: 35px; ;
+    max-width: 100%;
+}
+.story-text p{
+    font-family: playwrite au sa;
+    font-weight: 400;
+    max-width: 100%;
+    font-size: 20px;
+    color: #530408;
+}
+.story img{
+    width: 650px;
+    border-radius: 25px;
+    padding: 15px;
+    max-width: 100%;
+}
+
+.ulfooter{
+    background-color: #acada8;
+    justify-content: center;
+    margin: -13px;
+    padding: 0px;
+    display: flex;
+    font-size: 15px;
+    color: white;
+}
+.ulfooter li{
+    list-style-type: none;
+}
+
+.ulfooter a{
+    text-decoration: none;
+    color: white;
+
+}
+.ulfooter a:hover{
+color: #530408;
+}
+
+.ulfooter h2{
+    font-size: 15px;
+    text-decoration: underline;
+}
+.end1{
+    margin: 70px;
+    padding: 15px;
+    text-align: center;
+    max-width: 100%;
+    width: auto;
+}
+
+.end1 img{
+    border-radius: 10px;
+    margin: 5px;
+    max-width: 100%;
+    height: auto;
+
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #0c0b07;
+    font-size: 15px;
+    padding: 10px;
+    margin: -13px;
+    max-width: 100%;
+    width: auto;    
+
+}
+.foot1{
+    margin-right: 5px;
+    margin: 20px;
+}
+.foot2{
+    margin-left: 5px;
+    margin: 20px;
+}
+
+.logofoot{
+font-family: myfont;
+color: white;
+margin: 2px;
+}
+
+@media (max-width: 600px){
+.navbar li{
+    float: none;
+}
+.navbar ul{
+    flex-direction: column;
+    margin: auto;
+}
+.menu-icon{
+    margin-left: 150px;
+    margin-top: -90px;
+    padding: 20px;
+    display: block;
+}
+#menuList{
+    transition: all 0.5s;
+}
+#mobile-logo{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: #530408;
+    height: 70px;
+}
+#logo{
+    display: none;
+}
+.logofoot{
+    text-align: left;
+    margin: auto;
+}
+.story{
+    display: block;
+    margin: auto;
+}
+.story img{
+    padding: 0%;
+}
+.story-text{
+    margin-left: auto;
+}
+.story-text h2{
+    font-size: 35px;
+}
+.story-text p{
+    font-size: 20px;
+}
+.footer{
+    text-align: center;
+}
+.ulfooter{
+    font-size: 15px;
+    display: block;
+}
+}

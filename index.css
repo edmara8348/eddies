@@ -1,0 +1,718 @@
+@font-face {
+    font-family: myfont;
+    src: url(myfont.ttf);
+}
+@keyframes appear {
+ from {
+  opacity: 0;
+  scale: 0.5;
+ }
+
+ to {
+  opacity: 1;
+  scale: 1;
+ }
+}
+body{
+    font-family: 'Arvo';
+    background-color: #f2e7dc;
+    font-weight: lighter;
+}
+.menu-icon{
+ display:none;
+}
+.menu-icon i{
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+}
+.navbar{
+    text-align: center;
+}
+.navbar h1{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: center;
+}
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #eccfd6;
+}
+.navbar a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    background-color: #eccfd6;
+    color: #530408;
+}
+.navbar li{
+    float: left;
+    margin:0%;
+    padding: 0px;
+}
+.navbar a:hover{
+    background-color: #FAF0DC;
+}
+.navbar img{
+    padding: 4px;
+    margin: 4px;
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+}
+#mobile-logo{
+    display: none;
+}
+
+.slider{
+    overflow: hidden;
+    width: 1520px;
+    height: auto;
+}
+.slides{
+    display: flex;
+    width: 500%;
+}
+.slides input{
+    display: none;
+}
+.slide{
+    width: 20%;
+    transition: 2s;
+}
+
+.nav-manual{
+position: absolute;
+margin-top: -145px;
+margin-left: 700px;
+display: flex;
+justify-content: center;
+}
+.manual-btn{
+    border: 2px solid #530408;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    transition: 1s;
+}
+.manual-btn:not(:last-child){
+margin-right: 40px;
+}
+.manual-btn:hover{
+    background: #530408;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+#radio4:checked ~ .first{
+    margin-left: -60%;
+}
+.nav-auto{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: 710px;
+    margin-left: 700px;
+}
+
+.nav-auto div{
+ border: 2px solid #530408;
+ padding: 5px;
+ border-radius: 10px;
+ transition: 1s;
+}
+.nav-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .nav-auto .auto-btn1{
+    background: #530408;
+}
+#radio2:checked ~ .nav-auto .auto-btn2{
+    background: #530408;
+}
+#radio3:checked ~ .nav-auto .auto-btn3{
+    background: #530408;
+}
+#radio4:checked ~ .nav-auto .auto-btn4{
+    background: #530408;
+}
+.image1{
+    margin: 0%;
+    padding: 0%;
+    max-width: 100%;
+}
+.slide img{
+    width: 1520px;
+    height: 850px;
+    max-width: 100%;
+}
+
+.text1{
+    font-size: 30px;
+}
+.font1{
+    font-family: playwrite au sa;
+    font-size: 66px;
+    font-weight: 200;
+}
+.font2{
+    font-family: myfont;
+    font-size: 56px;
+    font-weight: 200;
+    text-align: left;  
+}
+.font-center{
+    justify-content: center;
+    display: flex;
+}
+.overlay-text{
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 35px;
+}
+
+.box2{
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    background-color: #a1d99b;
+    padding: 0%;
+    max-width: 100%;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.boxtext{
+    margin: 15px;
+    padding: 50px;
+    max-width: 100%;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+
+.boxtext img {
+    border-radius: 50px;
+}
+
+.boxtext h2{
+    font-size: 35px;
+    justify-content: left;
+    max-width: 100%;
+    width: auto;
+    padding: 2px;
+    margin: 2px;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.white{
+    color: white;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 5px;
+    padding: 5px;
+    max-width: 100%;
+    width: 550px;
+    margin: auto;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.boxtext p{
+    font-size: 24px;
+    justify-content: left;
+    padding: 2px;
+    margin: 2px;
+    width: 480px;
+    max-width: 100%;
+    width: auto;
+    word-spacing:1% ;
+    color: white;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.text2{
+    width: 350px;
+    height: 150px;
+    text-align: center;
+    max-width: 100%;
+    width: auto;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.font3{
+    font-family: playwrite au sa;
+    font-size: 35px;
+    font-weight: 450;
+    max-width: 100%;
+    width: auto;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.home-images{
+    justify-content: center;
+    background-color:#dce7ef;
+    max-width: 100%;
+    height: auto;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.home-images p{
+    font-size: 35px;
+    width: 750px;
+    margin: auto;
+    max-width: 100%;
+    animation: appear linear;
+   animation-timeline: view();
+   animation-range: entry 0 cover 40%;
+}
+.cake{
+ overflow: hidden;
+ border-radius: 10px;
+ margin: 30px;
+ max-width: 100%;
+ animation: appear linear;
+ animation-timeline: view();
+ animation-range: entry 0 cover 40%;
+}
+.ourcakes{
+    font-family: playwrite au sa;
+    font-size: 45px;
+    max-width: 100%;
+    color: #bf9b30;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.viewcakes a{
+text-decoration: none;
+}
+.viewcakes p{
+    text-align: center;
+    position:relative;
+    color: #bf9b30;
+    font-weight: bold;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 4px;
+    width: 350px;
+    font-size: 25px;
+    margin: auto;
+    max-width: 100%;
+    border-color: #bf9b30;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.custom{
+    background-color: #ffc0cb;
+    display: flex;
+    max-width: 100%;
+    width: auto;
+    justify-content: center;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.custom1{
+    text-align: center;
+    padding: 15px;
+    max-width: 100%;
+    width: auto;
+    margin: 15px;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.custom1 h1{
+    font-size: 55px;
+    font-weight: medium;
+    color: white;
+    max-width: 100%;
+    width: auto;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.text3{
+    font-family: playwrite au sa;
+    color: #bf9b30;
+    max-width: 100%;
+    width: auto;
+    font-weight: 550;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.custom1 p{
+    width: 680px;
+    text-align: center;
+    margin-left: 150px;
+    font-size: 45px;
+    color: white;
+    max-width: 100%;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.custom2{
+    padding: 80px;
+    margin: auto;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.custom2 img{
+    border-radius: 15px;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.order{
+    display: flex;
+    flex-direction: row;
+    background-color: #fffac2;
+    text-align: center;
+    max-width: 100%;
+    width: auto;
+    padding: 15px;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.order1{
+    margin-left: 150px;
+    max-width: 100%;
+    width: auto;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+
+.order1 h1{
+    font-size: 35px;
+    max-width: 100%;
+    width: auto;
+}
+.order1 p{
+    font-size: 35px;
+    width: 300px;
+    max-width: 100%;
+    width: auto;
+}
+.order1 img{
+    border-radius: 15px;
+    margin: 5px;
+    max-width: 100%;
+    height: auto;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+
+.boxtext2{
+    width: 250px;
+    max-width: 100%;
+    width: auto;
+}
+.order2{
+    padding: 50px;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.order2 img{
+    border-radius: 15px;
+    animation: appear linear;
+    max-width: 100%;
+    height: auto;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+
+
+.ulfooter{
+    background-color: #acada8;
+    justify-content: center;
+    padding: 0px;
+    display: flex;
+    font-size: 15px;
+    color: white;
+    max-width: 100%;
+    width: auto;
+
+}
+.ulfooter li{
+    list-style-type: none;
+}
+
+.ulfooter a{
+    text-decoration: none;
+    color: white;
+}
+.ulfooter a:hover{
+color: #530408;
+}
+
+.ulfooter h2{
+    font-size: 15px;
+    text-decoration: underline;
+}
+.end1{
+    margin: 70px;
+    padding: 15px;
+    text-align: center;
+    max-width: 100%;
+    width: auto;
+}
+
+.end1 img{
+    border-radius: 10px;
+    margin: 5px;
+    max-width: 100%;
+    height: auto;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #0c0b07;
+    font-size: 15px;
+    padding: 10px;
+    margin: -13px;
+    max-width: 100%;
+    width: auto;
+}
+.foot1{
+    margin-right: 5px;
+    margin: 20px;
+}
+.foot2{
+    margin-left: 5px;
+    margin: 20px;
+}
+
+.logofoot{
+font-family: myfont;
+color: white;
+margin: 2px;
+}
+
+@media (max-width: 600px){
+.navbar li{
+    float: none;
+}
+.navbar ul{
+    flex-direction: column;
+    margin: auto;
+}
+.menu-icon{
+    margin-left: 150px;
+    margin-top: -90px;
+    padding: 20px;
+    display: block;
+}
+#menuList{
+    transition: all 0.5s;
+}
+#mobile-logo{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: #530408;
+    height: 70px;
+}
+#logo{
+    display: none;
+}
+
+.font1{
+    font-size: 25px;
+    margin-top: -45px;
+}
+.font2{
+    font-size: 15px;
+}
+.text1{
+    font-size: 12px;
+}
+.manual-btn{
+    display: none;
+}
+.manual-btn:hover{
+    display: none;
+}
+.nav-auto{
+    display: none;
+}
+
+.slider{
+    overflow: hidden;
+    width: auto;
+}
+.slide img{
+    height: 350px;
+    width: auto;
+}
+.box2{
+    animation: none;
+    display: block;
+}
+.boxtext{
+    display: block;
+}
+.font3{
+    font-size: 18px;
+    display: block;
+}
+.white{
+    font-size: 15px;
+    width: 450px;
+    display: block;
+}
+
+.box2 img{
+    animation: none;
+    max-width: 100%;
+}
+.boxtext .text2{
+    font-size: 15px;
+}
+.home-images{
+    display: block;
+    animation: none;
+}
+.home-images p{
+    font-size: 20px;
+    margin: 10px;
+    animation: none;
+}
+.ourcakes{
+display: block;
+animation: none;
+}
+.viewcakes p{
+    width: auto;
+}
+.cake{
+    animation: none;
+}
+.custom{
+    display: block;
+    animation: none;
+}
+.custom1{
+    display: block;
+    animation: none;
+}
+.custom1 h1{
+    font-size: 25px;
+    animation: none;
+}
+.custom1 p{
+    font-size: 20px;
+    width: 350px;
+    margin: auto;
+    animation: none;
+}
+.text3{
+    animation: none;
+    font-size: 25px;
+}
+.custom2{
+    display: block;
+    padding: auto;
+    animation: none;
+}
+.custom2 img{
+    animation: none;
+    max-width: 100%;
+    height: auto;
+}
+.order{
+    display: block;
+    animation: none;
+}
+.order1 p{
+    display: block;
+    font-size: 25px;
+    margin: 25px;
+}
+.order1{
+    display: block;
+    animation: none;
+    margin-left: auto;
+}
+.order1 h1{
+    display: block;
+    font-size: 30px;
+}
+.order1 img{
+animation: none;
+width: 100px;
+}
+.order1 a{
+animation: none;
+}
+.order2{
+    animation: none;
+    display: block;
+}
+.order2 img{
+    display: block;
+    animation: none;
+}
+.footer{
+    text-align: center;
+}
+.logofoot{
+    text-align: left;
+    margin: auto;
+}
+.ulfooter{
+    font-size: 15px;
+    display: block;
+    animation: none;
+}
+.ulfooter li{
+    animation: none;
+}
+.ulfooter h2{
+    animation: none;
+}
+.end1{
+    animation: none;
+}
+.end1 img{
+    animation: none;
+}
+.end1 a{
+    animation: none;
+}
+}
+
+
+

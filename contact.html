@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Eddie's Cake Shop: Best Cake Store in South Africa</title>
+    <meta name="description" content="Eddie's Cake Shop users have the ability to contact the store for any queries as well as requests for custom made cakes. Eddie's Cake Shop can also be located in Swapo Road Durban">
+    <meta name="keywords" content="cake, pastries, south africa, cake store, custom made cakes, email, contact, queries, questions, location">
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Capriola&family=Dongle&family=Playwrite+AU+SA:wght@100..400&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Capriola&family=Dongle&family=Playwrite+AU+SA:wght@100..400&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Asul:wght@400;700&family=Capriola&family=Dongle&family=Dosis:wght@200..800&family=Playwrite+AU+SA:wght@100..400&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="contact.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="navbar">
+            <img id="logo" src="_images\IMG_3508.jpeg" width="60px" alt="Eddie's Cake Shop Logo">
+            <div id="mobile-logo"><img src="_images\IMG_3521.jpeg" width="60px"></div>
+            <div class="menu-icon"><i class="fa-solid fa-bars" onclick="toggleMenu()"></i></div>
+                        <ul>
+                            <h1>
+                                <div id="menuList">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="story.html">Our Story</a></li>
+                                    <li><a href="cakes.html">Cakes</a></li>
+                                    <li><a href="calendar.html">Calendar</a></li>
+                                    <li><a href="contact.html">Contact Us</a></li>
+                                </div>
+                            </h1>
+                        </ul>
+    </div>
+    <br>
+<div class="contact">
+    <div class="allwrappers">
+        <div class="wrapper1" id="wrapper1">
+            <form id="form" method="post" action="https://formspree.io/f/xwpbpbkk" name="myForm" onsubmit="return validateForm()">
+                <h1>Contact Us</h1>
+                <div class="input-box">
+                    <input type="text" id="name" name="name" placeholder="Name">
+                </div>
+                        <div class="input-box">
+                    <input type="text" id="surname" name="surname" placeholder="Surname">
+
+                </div>
+                        <div class="input-box">
+                    <input type="tel"  id="number" name="number" placeholder="Cell phone">
+
+                </div>
+                        <div class="input-box">
+                    <input type="text" id="email" name="email" placeholder="Email">
+
+                </div>
+                        <div class="input-box">
+                    <textarea name= "message" id="message" name="message" placeholder="How can we help?" class="input-box"></textarea>
+
+                </div>
+                <div class="btn"><button type="submit" id="submit" class="btn">Send</button></div>
+            </form>
+            </div>
+        </div>
+
+    <div class="allalertboxes">
+        <div class="alerts">
+            <div id="alertbox1">
+            <i class="fa-solid fa-triangle-exclamation"></i>
+            <h2>OHH NO CUPCAKE...</h2>
+            <p>I think you forgot a few things. Please check that your name, surname, cell phone number, email and message boxes are filled out.</p>
+            <p>XOXO Eddie</p>
+            <button id="btn" onclick="toggle()">Ok</button>
+            </div>
+            <br>
+        </div>
+            <div class="alerts">
+                <div id="alertbox2">
+                <i class="fa-solid fa-triangle-exclamation"></i>
+                <h2>SORRY SWEETIE...</h2>
+                <p>Your email needs to have an "@" and a ".". Please check if your email has the following requirements and is VALID.</p>
+                <p>XOXO Eddie</p>
+                <button id="btn" onclick="toggle()">Ok</button>
+                </div>
+            </div>
+
+
+        
+    </div>
+        <div class="wrapper2" id="wrapper2">
+            <img src="_images\3623fdacb722cb77a48d7bd2952e45ec.jpg" width="365px">
+    </div>
+    
+    </div>
+</div>
+<br>
+<div class="local">
+    <u>
+        <h2 style="text-align: center;">Location</h2>
+    </u>
+</div>
+<div class="location">
+    <p style="text-align: center;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3462.7284824060293!2d31.038385175334408!3d-29.785491675055034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ef7065158d5d0ff%3A0xf91ad189ccd043b7!2sSwapo%20Rd%2C%20Durban%20North%2C%204051!5e0!3m2!1sen!2sza!4v1743610095282!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+</div>
+
+<footer> 
+    <div class="ulfooter">
+        
+     <div class="end1">
+         <ul>
+            <a href="index.html">
+                <li>Home</li>
+            </a>
+            <a href="story.html">
+                <li>Our Story</li>
+            </a>
+            <a href="cakes.html">
+                <li>Cakes</li>
+            </a>
+            <a href="calendar.html">
+                <li>Calendar</li>
+            </a>
+            <a href="contact.html">
+                <li>Contact Us</li>
+            </a>
+         </ul>
+     </div>
+     <div class="end1">
+         <h2>Contact Us</h2>
+         <p>
+            <strong>Phone Number</strong>: 072 577 1706
+            <br>
+            <strong>Email Address</strong>: eddiescakes@gmail.com
+            <br>
+            <strong>Address</strong>: 1 Swapo Road,Durban North, 4051
+            <br>
+         </p>
+     </div>
+     <div class="end1">
+         <h2>Operating Hours</h2>
+         <p>
+            Mon to Fri: 7am to 9pm<br>
+            Sat: 8am to 9pm<br>
+            Sun: 9am to 8pm
+         </p>
+     </div>
+     <div class="end1">
+         <h2>Buy Now!</h2>
+         <a href="https://www.mrd.com/"><img src="_images\unnamed.png" width="60px"> </a>
+         <a href="https://www.ubereats.com/za?utm_source=AdWords_Brand&utm_campaign=CM2199989-search-google-brand_161_-99_ZA-National_e_web_acq_cpc_en_T1_Generic_BM_uber%20eats_kwd-111378724137_619502259242_144330958201_b_c&campaign_id=18220207132&adg_id=144330958201&fi_id=&match=b&net=g&dev=c&dev_m=&ad_id=619502259242&cre=619502259242&kwid=kwd-111378724137&kw=uber%20eats&placement=&tar=&gclsrc=aw.ds&gad_source=1&gclid=Cj0KCQjwtpLABhC7ARIsALBOCVp5V6DHYMOZE0Pn1NgurwSV0EBQmGdcXO0t5mPHrgZeQmq3_527iN4aAk3dEALw_wcB"><img src="_images\IMG_3509.jpeg" width="60px"> </a>
+         <br>
+         <a href="https://www.instagram.com/"><img src="_images\15707869.png" width="60px"></a>
+         <a href="https://www.tiktok.com/en/"><img src="_images\channels4_profile.jpg" width="60px"></a>
+         <a href="https://www.whatsapp.com/"><img src="_images\3536445.png" width="60px"></a>
+     </div>
+    </div>
+        <div class="footer">
+            <p class="foot1">&copy; All rights reserved</p>  
+             <p class="logofoot">eddie's<br> cake<br> shop</p>
+            <p class="foot2">built by Edmara Alexandre</p>
+        </div>
+    
+        </footer>
+    <script src="contact.js"></script>
+
+</body>
+</html>
